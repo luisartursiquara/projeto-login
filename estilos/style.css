@@ -14,8 +14,16 @@ main{
 section{
     padding: 10px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    top: 70%;
     border: 1px solid black;
 border-radius: 10px;
+width: 800px;
+}
+div#formulario{
+    width: 400px;
+    border: 1px solid black;
+}
+div#imagem{
+    background-image: url(../imagens/pexels-suzyhazelwood-1629236.jpg);
 }
