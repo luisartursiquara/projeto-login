@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:#000000;
+    --cor1:#ffffff;
+    --cor2:#49a09d;
+    --cor3:#5f2c82;
+}
+
+main{
+    position: relative;
+    background-image: linear-gradient(to bottom,  var(--cor2), var(--cor3));
+}
+section{
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid black;
+border-radius: 10px;
+}

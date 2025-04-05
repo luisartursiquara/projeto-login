@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>login</h1>
+                <p>
+                    seja bem-vindo(a) novamente, faça login para acessar sua conta e fazer alteraçoes no seu ambiente
+                </p>
+                <form action="cadastro.php">
+                    <p>
+                        <label for="iuser">Usuario: </label>
+                        <input type="text" name="user" id="iuser" required>
+                    </p>
+                    <p>
+                        <label for="isen">Senha: </label>
+                        <input type="password" name="sen" id="isen" required minlength="8">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Esqueci minha senha">
+                    </p>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
