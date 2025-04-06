@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
 :root {
     --cor0:#000000;
     --cor1:#ffffff;
@@ -7,23 +12,46 @@
     --cor3:#5f2c82;
 }
 
-main{
+ html > body {
     position: relative;
-    background-image: linear-gradient(to bottom,  var(--cor2), var(--cor3));
+    background-color: var(--cor3);
+    height: 100vh;
+    width: 100vw;
+    
 }
-section{
+section#login {
+    background-color: var(--cor1);
     padding: 10px;
     position: absolute;
-    left: 30%;
-    top: 70%;
+    left: 50%;
+    top: 50%;
     border: 1px solid black;
-border-radius: 10px;
-width: 800px;
+    border-radius: 10px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 div#formulario{
-    width: 400px;
+    padding: 10px;
+    width: 200px;
     border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.7em;
 }
-div#imagem{
-    background-image: url(../imagens/pexels-suzyhazelwood-1629236.jpg);
+section#login > div#imagem{
+    background: var(--cor3) url(../imagens/pexels-suzyhazelwood-1629236.jpg) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
 }
+main > section > div > form > p > input{
+    font-size: 0.7em;
+}
+
+sec
